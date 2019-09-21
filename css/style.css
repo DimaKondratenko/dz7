@@ -1,0 +1,84 @@
+{
+	box-sizing: border-box;
+	 }
+
+h1 {
+	text-align: center;
+}
+
+ul  {
+	overflow: hidden;
+	list-style-type: none;
+}
+
+ul li {
+	float:left;
+	list-style-type: none;
+	margin: 10px;
+}
+
+ul li a {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+li .red {
+	background: red;
+}
+li .yellow {
+	background: yellow;
+}
+li .blue {
+	background: blue;
+}
+li .orange {
+	background: orange;
+}
+li .green {
+	background: green;
+}
+li .pink {
+	background: pink;
+}
+li .violet {
+	background: violet;
+}
+
+
+/*.text-center {
+	text-align: center;
+}
+.col {
+	float: left;
+	width:100px;
+	height: 100px;
+	margin:10px;
+}
+.row:after {
+	content : '';
+	display: block;
+	clear: both;
+}
+
+.red {
+	background: red;
+}
+.yellow {
+	background: yellow;
+}
+.pink {
+	background: pink;
+}
+.orange {
+background: orange;
+}
+.green {
+	background: green;
+}
+.grey {
+	background: grey;
+}
+.blue {
+	background: blue;
+}*/
