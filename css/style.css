@@ -44,6 +44,27 @@ li .pink {
 li .violet {
 	background: violet;
 }
+li .red:hover {
+	background: yellow;
+}
+li .yellow:hover {
+	background: blue;
+}
+li .blue:hover {
+	background: orange;
+}
+li .orange:hover {
+	background: green;
+}
+li .green:hover {
+	background: violet;
+}
+li .violet:hover {
+	background:pink;
+}
+li .pink:hover {
+	background: red;
+}
 
 
 /*.text-center {
