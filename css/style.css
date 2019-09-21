@@ -25,45 +25,115 @@ ul li a {
 
 li .red {
 	background: red;
-}
+ }
 li .yellow {
 	background: yellow;
-}
+ }
 li .blue {
 	background: blue;
-}
+ }
 li .orange {
 	background: orange;
-}
+ }
 li .green {
 	background: green;
-}
+ }
 li .pink {
 	background: pink;
-}
+ }
 li .violet {
 	background: violet;
-}
+ }
 li .red:hover {
 	background: yellow;
-}
+ }
 li .yellow:hover {
 	background: blue;
-}
+ }
 li .blue:hover {
 	background: orange;
-}
+ }
 li .orange:hover {
 	background: green;
-}
+ }
 li .green:hover {
 	background: violet;
-}
+ }
 li .violet:hover {
 	background:pink;
-}
+ }
 li .pink:hover {
 	background: red;
+}
+
+@media(min-width: 768px) {
+	li .red {
+	background: yellow;
+ }
+li .yellow {
+	background: blue;
+ }
+li .blue {
+	background: orange;
+ }
+li .orange {
+	background: green;
+ }
+li .green {
+	background: pink;
+ }
+li .pink {
+	background: violet;
+ }
+li .violet {
+	background: red;
+ }
+}
+@media (min-width: 992px) {
+		li .red {
+	background: blue;
+ } 
+li .yellow {
+	background: orange;
+ }
+li .blue {
+	background: green;
+ } 
+li .orange {
+	background: pink;
+ }
+li .green {
+	background: violet;
+ }
+li .pink {
+	background: red;
+ }
+li .violet {
+	background: yellow;
+ }
+}
+@media (min-width: 1200px) {
+		li .red {
+	background: orange;
+ }
+li .yellow {
+	background: green;
+ }
+li .blue {
+	background: pink;
+  }
+li .orange {
+	background: violet;
+  }
+li .green {
+	background: red;
+  }
+li .pink {
+	background: yellow;
+ }
+li .violet {
+	background: bluue;
+  }
 }
 
 
